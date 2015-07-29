@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">E-Additives</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Searching by E number</string>
+    <string name="search">Search</string>
+    <string name="function">Function:</string>
+    <string name="warnings">Warnings:</string>
+    <string name="no_data">No data.</string>
+    <string name="empty_code">Reserved, but not assigned to any substance</string>
+    <string name="oops">Oops!</string>
+    <string name="loading">Loading</string>
+    <string name="loading_data">Loading data.</string>
+    <string-array name="statuses">
+        <item>Safe</item>
+        <item>Potentially unsafe</item>
+        <item>Unsafe</item>
+        <item>Dangerous</item>
+    </string-array>
+    <string-array name="trineddata">
+        <item>eng.traineddata</item>
+        <item>rus.traineddata</item>
+        <item>ukr.traineddata</item>
+    </string-array>
+    <string-array name="lang_codes">
+        <item>eng</item>
+        <item>rus</item>
+        <item>ukr</item>
+    </string-array>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Russian</item>
+        <item>Ukrainian</item>
+    </string-array>
+
+</resources>

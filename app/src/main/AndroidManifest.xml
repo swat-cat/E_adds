@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swat_cat.com.e_adds" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Controllers.StartActivity"
+            android:launchMode="singleTop"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:name=".Controllers.TextScanActivity"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"/>
+        <activity android:name=".Controllers.E_addActivity"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Controllers.StartActivity"/>
+        </activity>
+
+        <activity android:name=".Controllers.E_addListActivity"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Controllers.StartActivity"/>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera" />
+
+</manifest>

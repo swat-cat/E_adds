@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="android:icon">@drawable/ic_launcher</item>
+    </style>
+
+</resources>

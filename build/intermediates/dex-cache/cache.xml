@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Dell\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.3\56498efd17752898cfcc3868c1b6211a07b12b8f\joda-time-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56498efd17752898cfcc3868c1b6211a07b12b8f">
+        <dex dex="C:\Users\Dell\AndroidStudioProjects\E_adds\app\build\intermediates\pre-dexed\debug\joda-time-2.3-26a7ac5a11490ffd86cfdb81dab51c524a73898c.jar" />
+    </item>
+
+</items>
