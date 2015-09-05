@@ -1,8 +1,8 @@
 E-additives:
 The application focuses on food additives of the standart European  E-Code Classification (E100 - E1520),
 for example -E102 (Tartrazine). The idea is simple. Using his device camera, user scans ingridientsof the product,
-from supermarket shelf, app analyzes the text of composition, searching there food additives, and displays information abot E-additives
-contained in the product,  degree of their safety (toxicity), and the associated with them warnings.
+from supermarket shelf, app analyzes the retrieved text, searching there food additives, and displays information about
+them - degree of their safety (toxicity), and the associated with them warnings.
 In addition, app present search additive by the code, sorting them into categories for more usual interaction.
 
 The application has been written for educational purposes:
